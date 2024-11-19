@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1e1f29, #3b3c4d);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.modern-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #ddd;
+}
+
+.blockquote-footer {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: #bbb;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #fff;
+}
+
+.btn-quote {
+  background: linear-gradient(135deg, #6c63ff, #9d8fff);
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-quote:hover {
+  background: linear-gradient(135deg, #9d8fff, #6c63ff);
+}
